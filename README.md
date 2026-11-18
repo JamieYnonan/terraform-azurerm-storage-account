@@ -66,9 +66,9 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_container_id"></a> [container\_id](#output\_container\_id) | value of the storage container id |
-| <a name="output_container_name"></a> [container\_name](#output\_container\_name) | value of the storage container name |
-| <a name="output_primary_blob_endpoint"></a> [primary\_blob\_endpoint](#output\_primary\_blob\_endpoint) | value of the storage account primary blob endpoint |
-| <a name="output_storage_account_id"></a> [storage\_account\_id](#output\_storage\_account\_id) | value of the storage account id |
-| <a name="output_storage_account_name"></a> [storage\_account\_name](#output\_storage\_account\_name) | value of the storage account name |
+| <a name="output_container_id"></a> [container\_id](#output\_container\_id) | The ID of the storage container |
+| <a name="output_container_name"></a> [container\_name](#output\_container\_name) | The name of the storage container |
+| <a name="output_primary_blob_endpoint"></a> [primary\_blob\_endpoint](#output\_primary\_blob\_endpoint) | The primary blob endpoint of the storage account |
+| <a name="output_storage_account_id"></a> [storage\_account\_id](#output\_storage\_account\_id) | The ID of the storage account |
+| <a name="output_storage_account_name"></a> [storage\_account\_name](#output\_storage\_account\_name) | The name of the storage account |
 <!-- END_TF_DOCS -->
