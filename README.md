@@ -6,6 +6,21 @@ Este repositorio servirá de soporte a los posts en [Medium](https://medium.com/
 |------|--------|
 | [Módulos Remotos en GitHub Repository: Estructura y Estandarización](https://medium.com/@jamieynonan/modulos-remotos-en-github-repository-estructura-y-estandarizacion-169a3bb1dbdd) | feature/module |
 
+## Usage
+
+<!-- x-release-please-start-version -->
+```hcl
+module "storage_account" {
+  source = "git::https://github.com/JamieYnonan/terraform-azurerm-storage-account.git?ref=v1.0.0"
+
+  rg_name        = "rg-abc123-001"
+  st_instance    = 1
+  st_project     = "abc"
+  container_name = "container"
+}
+```
+<!-- x-release-please-end -->
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
