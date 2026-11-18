@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 module "sa" {
-  source         = "git::https://github.com/JamieYnonan/terraform-azurerm-storage-account.git?ref=v1.1.0" # x-release-please-version
+  source         = "git::https://github.com/JamieYnonan/terraform-azurerm-storage-account.git?ref=v1.1.1" # x-release-please-version
   rg_name        = "rg-abc123-001"
   st_instance    = 1
   st_project     = "abc"
