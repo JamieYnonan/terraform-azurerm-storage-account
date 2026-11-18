@@ -11,7 +11,7 @@ Este repositorio servirá de soporte a los posts en [Medium](https://medium.com/
 <!-- x-release-please-start-version -->
 ```hcl
 module "storage_account" {
-  source = "git::https://github.com/JamieYnonan/terraform-azurerm-storage-account.git?ref=v1.0.0"
+  source = "git::https://github.com/JamieYnonan/terraform-azurerm-storage-account.git?ref=v1.1.0"
 
   rg_name        = "rg-abc123-001"
   st_instance    = 1
